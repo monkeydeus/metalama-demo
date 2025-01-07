@@ -4,7 +4,7 @@ using metalama_library;
 
 namespace metalama_demo.metalama;
 
-internal class Fabric : ProjectFabric
+internal class Fabric :TransitiveProjectFabric
 {
     // This method is the compile-time entry point of your project.
     // It executes within the compiler or IDE.
